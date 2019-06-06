@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         FragmentTransaction ft = fm.beginTransaction();
 
         Fragment f1 = new FragmentFirst();
-        ft.add(R.id.frame1, f1);
+        ft.replace(R.id.frame1, f1);
 
         Fragment f2 = new FragmentSecond();
         ft.replace(R.id.frame2, f2);
